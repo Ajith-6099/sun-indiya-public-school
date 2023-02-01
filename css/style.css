@@ -161,6 +161,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
 }
 .fh5co-nav ul li a {
+  font-size: 20px;
   padding: 30px 15px;
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: 0.5s;
@@ -305,7 +306,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-header .display-t,
   .fh5co-cover .display-t {
-    padding: 3em 0;
+    padding: 3 0;
   }
 }
 #fh5co-header .display-tc,
@@ -1781,3 +1782,9 @@ textarea {
 }
 
 
+.header-1{
+  min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.068),rgba(20, 5, 5, 0.644)),url(images/main/main-3.jpg);
+    background-size:cover;
+    background-position: center;
+}
