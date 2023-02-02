@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa&family=Sofia+Sans&display=swap');
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -7,7 +8,8 @@
 }
 
 body {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  /* font-family: "Cormorant Garamond", Georgia, serif; */
+  font-family: 'League Spartan', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
@@ -72,7 +74,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  /* font-family: "Cormorant Garamond", Georgia, serif; */
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -130,7 +132,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   font-weight: 700;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  /* font-family: "Cormorant Garamond", Georgia, serif; */
   color: #fff !important;
 }
 .scrolled .fh5co-nav #fh5co-logo {
@@ -167,7 +169,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
 }
 .fh5co-nav ul li a {
-  font-size: 20px;
+  font-size: 17px;
   padding: 30px 15px;
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: 0.5s;
@@ -337,6 +339,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
+  margin-top: 30rem;
   font-size: 74px;
   font-size: 80px;
   font-weight: 700;
@@ -459,7 +462,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .section-heading h2 { 
   font-style: 40px;
   color: #fff;
-  font-family: "Satisfy", cursive;
+  /* font-family: "Satisfy", cursive; */
 }
 
 #fh5co-about .img-wrap img {
@@ -474,6 +477,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-featured-menu .fh5co-heading, #fh5co-gallery .fh5co-heading, #fh5co-reservation-form .fh5co-heading {
   margin-bottom:31px;
+  margin-top: 50px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured-menu .fh5co-heading, #fh5co-gallery .fh5co-heading, #fh5co-reservation-form .fh5co-heading {
@@ -482,7 +486,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-featured-menu .fh5co-heading h2, #fh5co-gallery .fh5co-heading h2, #fh5co-reservation-form .fh5co-heading h2 {
   color: #fff;
-  font-family: "Satisfy", cursive;
+  /* font-family: "Satisfy", cursive; */
 }
 #fh5co-featured-menu .fh5co-item-wrap, #fh5co-gallery .fh5co-item-wrap, #fh5co-reservation-form .fh5co-item-wrap {
   padding-left: 20px;
@@ -560,7 +564,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-featured-testimony .fh5co-heading h2 {
   color: #fff;
-  font-family: "Satisfy", cursive;
+  /* font-family: "Satisfy", cursive; */
 }
 #fh5co-featured-testimony .img-to-responsive img {
   margin-bottom: 20px;
@@ -605,7 +609,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-slider .fh5co-heading h2 {
-  font-family: "Satisfy", cursive;
+  /* font-family: "Satisfy", cursive; */
   color: #fff;
 }
 
@@ -784,7 +788,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 #fh5co-started .fh5co-heading h2 {
-  font-family: "Satisfy", cursive;
+  /* font-family: "Satisfy", cursive; */
   color: #fff;
   margin-bottom: 20px !important;
 }
@@ -1038,7 +1042,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-blog .fh5co-heading h2, #fh5co-contact .fh5co-heading h2 {
-  font-family: "Satisfy", cursive;
+  /* font-family: "Satisfy", cursive; */
   color: #fff;
 }
 
@@ -1379,7 +1383,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: 'icomoon';
+  /* font-family: 'icomoon'; */
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1555,7 +1559,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  /* font-family: "Cormorant Garamond", Georgia, serif; */
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1735,7 +1739,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   font-size: 20px;
   font-weight: 300;
-  font-family: "Satisfy", cursive;
+  /* font-family: "Satisfy", cursive; */
   /* color: #fff; */
 }
 .form-control:active, .form-control:focus {
