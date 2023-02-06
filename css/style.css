@@ -1798,5 +1798,8 @@ textarea {
 .bootstrap-datetimepicker-widget {
   color: #000 !important;
 }
-
+/* footer-image */
+.f-img{
+  background-image: url(images/footer/board.jpeg);
+}
 
